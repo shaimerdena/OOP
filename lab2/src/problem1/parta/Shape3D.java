@@ -1,4 +1,4 @@
-package three.d.shapes;
+package problem1.parta;
 
 public abstract class Shape3D {
 	
