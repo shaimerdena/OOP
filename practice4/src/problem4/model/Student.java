@@ -22,6 +22,16 @@ public class Student implements Comparable<Student> {
 		return Double.compare(this.gpa, other.gpa);
 	}
 	
+//	@Override
+//	public int compareTo(Student other) {
+//		if(this.getGPA() > other.getGPA()) {
+//			return -1;
+//		} else if(this.getGPA() < other.getGPA()) {
+//			return 1;
+//		}
+//		return 0;
+//	}
+	
 	@Override
 	public String toString() {
 		return this.getName() + " : " + this.getGPA();

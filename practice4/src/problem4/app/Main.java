@@ -13,8 +13,8 @@ public class Main {
 		List<Student> list = new ArrayList<>();
 		
 		Student s1 = new Student("Cipher", 4.00);
-		Student s2 = new Student("Bred", 3.70);
-		Student s3 = new Student("Alec", 3.00);
+		Student s2 = new Student("Bred", 3.00);
+		Student s3 = new Student("Alec", 3.70);
 		
 		list.add(s1);
 		list.add(s2);
