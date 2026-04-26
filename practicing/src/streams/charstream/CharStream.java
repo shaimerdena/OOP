@@ -5,13 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.io.PrintWriter;
 
 public class CharStream {
 	public static void main(String[] args) {
-		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/bytestream/hello.txt";
+		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/file/hello.txt";
 		try {
 			FileReader fr = new FileReader(filePath);
 			BufferedReader br = new BufferedReader(fr);

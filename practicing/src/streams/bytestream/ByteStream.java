@@ -10,7 +10,7 @@ import java.io.OutputStream;
 public class ByteStream {
 
 	public static void main(String[] args) {
-		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/bytestream/hello.txt";
+		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/file/hello.txt";
 		try {
 			InputStream inputStream = new FileInputStream(filePath);
 			byte[] content = inputStream.readAllBytes();

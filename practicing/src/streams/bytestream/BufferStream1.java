@@ -7,7 +7,7 @@ import java.io.IOException;
 public class BufferStream1 {
 
 	public static void main(String[] args) {
-		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/bytestream/hello.txt";
+		String filePath = "/Users/ayaulymshaimerden/eclipse-workspace/practicing/src/streams/file/hello.txt";
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(filePath));
 			String line = br.readLine();
